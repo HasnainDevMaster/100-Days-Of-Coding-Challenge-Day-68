@@ -33,13 +33,13 @@ let person: [string, number];
 person = ["Alice", 30]; // Correct
 // person = [30, "Alice"]; // Error
 
-// Optional Elements: Since TypeScript 3.0, tuples can have optional elements:
+// B. Optional Elements: Since TypeScript 3.0, tuples can have optional elements:
 
 let bgColor: [number, number, number, number?];
 bgColor = [0, 255, 255, 0.5]; // Correct
 bgColor = [0, 255, 255]; // Also correct
 
-// B. Named Tuples: Named tuples provide a structured approach for defining data with named properties:
+// C. Named Tuples: Named tuples provide a structured approach for defining data with named properties:
 
 type RGB = [red: number, green: number, blue: number];
 let color: RGB = [255, 0, 0];

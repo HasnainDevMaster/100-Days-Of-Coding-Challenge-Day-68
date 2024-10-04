@@ -23,7 +23,7 @@ myTuple = ["Hello", 42]; // Correct
 let person;
 person = ["Alice", 30]; // Correct
 // person = [30, "Alice"]; // Error
-// Optional Elements: Since TypeScript 3.0, tuples can have optional elements:
+// B. Optional Elements: Since TypeScript 3.0, tuples can have optional elements:
 let bgColor;
 bgColor = [0, 255, 255, 0.5]; // Correct
 bgColor = [0, 255, 255]; // Also correct
